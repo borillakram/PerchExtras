@@ -18,7 +18,7 @@ import java.util.List;
 
 public class ArmorStandCommand implements CommandExecutor, TabCompleter {
 
-    private static final String PERMISSION = "perchextras.armorstandcmd";
+    private static final String PERMISSION = "evergreen.armorstandcmd";
 
     private static final List<String> SUBCOMMANDS =
             Arrays.asList("addcmd", "clear", "info", "edit", "reload", "config");
