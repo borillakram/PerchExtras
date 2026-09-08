@@ -37,6 +37,9 @@ permissions:
   evergreen.bulkmapart.reload:
     description: Allows use of /bulkmapart reload.
     default: op
+  evergreen.armorstandcmd:
+    description: Add, clear, inspect and run commands on armor stands.
+    default: op
 depend:
   - WorldGuard
   - Essentials
@@ -50,4 +53,10 @@ commands:
     description: Runs a command for all online players.
     usage: /<command> <command with \$player>
     permission: perchextras.runcommandall
+    permission-message: §cYou do not have permission to use this command.
+  armorstandcommand:
+    description: Manage commands stored on armor stands.
+    usage: /armorstandcommand <addcmd|clear|info|edit|reload|config>
+    aliases: [armorstandcmd, ascmd]
+    permission: evergreen.armorstandcmd
     permission-message: §cYou do not have permission to use this command.
