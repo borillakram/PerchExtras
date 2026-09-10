@@ -12,6 +12,7 @@ import com.olziedev.runcommandall.RunAllCommand;
 
 import com.olziedev.hatchturtleeggsfaster.Hatchturtleeggsfaster;
 import com.olziedev.openirondoorsbyhand.Openirondoorsbyhand;
+import com.olziedev.parkour.Parkour;
 import com.olziedev.invisibleitemframes.Invisibleitemframes;
 import com.olziedev.openblockedcontainers.Openblockedcontainers;
 import com.olziedev.preventplayersfromgrabbingtoomanyelytras.Preventplayersfromgrabbingtoomanyelytras;
@@ -55,6 +56,7 @@ public class SpotExtras extends JavaPlugin {
                 new Potion(),
                 new AntiBackTeleport(),
                 new ArmorStandCmd(),
+                new Parkour(),
                 new BulkMapart(),
                 new Hatchturtleeggsfaster(),
                 new Invisibleitemframes(),

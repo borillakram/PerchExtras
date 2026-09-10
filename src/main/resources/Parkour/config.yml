@@ -1,0 +1,31 @@
+settings:
+  delete-confirm-word: "DELETE"
+  delete-confirm-seconds: 30
+  reset-blocks:
+    - WATER
+  bossbar:
+    enabled: true
+    color: GREEN
+  blocked-commands:
+    - fly
+    - f
+    - jump
+    - j
+    - jumpto
+    - thru
+    - top
+  messages:
+    prefix: "&8[<gradient:#48ab76:#7db597>Parkour</gradient>&8] &7"
+    started: "&#48ab76Started parkour &#7db597%parkour%&#48ab76! &7Flight, jump commands and elytra are disabled until you finish or &#7db597/parkour stop&7."
+    checkpoint: "&#48ab76Checkpoint &#7db597%stage%&#48ab76 reached!"
+    bossbar: "&#48ab76%parkour% &8» &#7db597%time%"
+    completed: "<gradient:#48ab76:#7db597>You completed the parkour</gradient> &#7db597%parkour%&#48ab76 in &#7db597%time%&#48ab76!"
+    stopped: "&#7db597Parkour stopped &8- &7your abilities are restored."
+    reset: "&7Teleported back to your &#7db597last checkpoint&7."
+    reset-start: "&7Teleported back to the &#7db597start&7."
+    blocked-command: "&cYou can't use that command while doing parkour. &7Use &#7db597/parkour stop&7 first."
+    blocked-elytra: "&cYou can't use your elytra during parkour."
+    not-in-parkour: "&cYou aren't currently doing a parkour."
+    delete-confirm: "&7To confirm deletion of course &#7db597\"%parkour%\"&7, enter &c%word%&7 in chat."
+    delete-success: "&#48ab76Deleted course &#7db597%parkour%&#48ab76."
+    delete-missing: "&cThat course no longer exists."

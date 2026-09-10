@@ -40,6 +40,9 @@ permissions:
   evergreen.armorstandcmd:
     description: Add, clear, inspect and run commands on armor stands.
     default: op
+  evergreen.parkour.admin:
+    description: Create and manage parkour courses.
+    default: op
 depend:
   - WorldGuard
   - Essentials
@@ -60,3 +63,6 @@ commands:
     aliases: [armorstandcmd, ascmd]
     permission: evergreen.armorstandcmd
     permission-message: §cYou do not have permission to use this command.
+  parkour:
+    description: Play or manage parkour courses.
+    usage: /parkour <reset|stop|reload|create|delete|add|remove|checkpoints|reorder|endcmd>

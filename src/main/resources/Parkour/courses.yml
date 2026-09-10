@@ -1,0 +1,10 @@
+# Structure:
+# parkours:
+#   <name>:
+#     start:      { world: world, x: 0, y: 64, z: 0, yaw: 0.0, pitch: 0.0 }
+#     end:        { world: world, x: 0, y: 64, z: 0, yaw: 0.0, pitch: 0.0 }
+#     checkpoints:
+#       - { world: world, x: 0, y: 64, z: 0, yaw: 0.0, pitch: 0.0 }
+#     end-commands:
+#       - "say You did it %player%!"
+parkours: {}
